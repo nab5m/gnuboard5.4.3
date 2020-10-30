@@ -7,6 +7,9 @@
 
 ## 실행하기
 ```shell script
+mkdir data
+chmod 707 ./data
+
 docker-compose down --rmi all --volumes
 docker-compose up
 ```
