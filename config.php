@@ -26,11 +26,11 @@ if (PHP_VERSION >= '5.1.0') {
 보안서버주소가 없다면 공란으로 두시면 되며 보안서버주소 뒤에 / 는 붙이지 않습니다.
 입력예) https://www.domain.com:443/gnuboard5
 */
-define('G5_DOMAIN', '');
+define('G5_DOMAIN', 'http://localhost:8000');
 define('G5_HTTPS_DOMAIN', '');
 
 // 디버깅 상수, 실제 서버운영시 false 로 설정해 주제요.
-define('G5_DEBUG', false);
+define('G5_DEBUG', true);
 
 // Set Databse table default engine is Databse default_storage_engine, If you want to use MyISAM or InnoDB, change to MyISAM or InnoDB.
 define('G5_DB_ENGINE', '');
